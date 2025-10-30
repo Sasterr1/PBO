@@ -11,7 +11,7 @@ class Employee {
 class FullTimeEmployee extends Employee {
     calculateBonus() {
         let bonusSalary = this.baseSalary * 0.10;
-        console.log(`Bonus ${this.name} (Karyawan Tetap, dengan gaji tetap Rp${this.baseSalary}): ${this.baseSalary} x 10% = Rp${bonusSalary}`);
+        console.log(`Bonus ${this.name} (Karyawan Tetap, Dengan gaji tetap Rp${this.baseSalary}): ${this.baseSalary} x 10% = Rp${bonusSalary}`);
         return bonusSalary;
     }
 }
@@ -19,7 +19,7 @@ class FullTimeEmployee extends Employee {
 class ContractEmployee extends Employee {
     calculateBonus() {
         let bonusSalary = this.baseSalary * 0.05;
-        console.log(`Bonus ${this.name} (Karyawan Kontrak, dengan gaji kontrak Rp${this.baseSalary}): ${this.baseSalary} x 5% = Rp${bonusSalary}`);
+        console.log(`Bonus ${this.name} (Karyawan Kontrak, Dengan gaji kontrak Rp${this.baseSalary}): ${this.baseSalary} x 5% = Rp${bonusSalary}`);
         return bonusSalary;
     }
 }
